@@ -18,9 +18,6 @@ An advanced embedded systems project built on the RP2040 microcontroller (Raspbe
 - 1 10kΩ potentiometer
 - Breadboard and jumper wires
 
-## 🔌 Circuit Diagram
-![Circuit Diagram](circuit_diagram.png)
-
 ## 📜 Code
 See [`multi_mode_led_controller.py`](multi_mode_led_controller.py)
 
@@ -29,9 +26,6 @@ See [`multi_mode_led_controller.py`](multi_mode_led_controller.py)
 - PWM and ADC peripheral interfacing
 - Press-duration-based finite state machine logic
 - Real-time signal control with power-efficient, resource-minimal hardware
-
-## 🎥 Demo
-*(Insert a photo or GIF of your setup in `/assets` folder)*
 
 ## 🛠️ Tools
 - MicroPython
