@@ -21,6 +21,9 @@ An advanced embedded systems project built on the RP2040 microcontroller (Raspbe
 ## 📜 Code
 See [`multi_mode_led_controller.py`](multi_mode_led_controller.py)
 
+## 🎥 Demo
+![Demo](demo.gif)
+
 ## 🧠 Skills Demonstrated
 - Embedded system design on Arm Cortex-M0+ SoC
 - PWM and ADC peripheral interfacing
