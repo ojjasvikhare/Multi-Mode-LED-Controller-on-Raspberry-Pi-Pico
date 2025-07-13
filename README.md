@@ -2,14 +2,14 @@
 
 An advanced embedded systems project built on the RP2040 microcontroller (Raspberry Pi Pico), showcasing real-time peripheral control, finite state machine logic, and interactive input handling using minimal hardware.
 
-## 🚀 Features
-- 🔴 Tap button: Toggle red LED (digital output via GPIO)
-- 🟡 Hold button (0.5–2s): Adjust yellow LED brightness with potentiometer (ADC + PWM)
-- 🔁 Hold >2s: Cycle through LED modes — manual, blink, breathe, off
-- ⚙️ Efficient use of GPIO, ADC, and PWM peripherals with time-based input conditioning
-- 💡 Built entirely in MicroPython
+## Features
+- Red Tap button: Toggle red LED (digital output via GPIO)
+- Yellow Hold button (0.5–2s): Adjust yellow LED brightness with potentiometer (ADC + PWM)
+- Hold >2s: Cycle through LED modes — manual, blink, breathe, off
+- Efficient use of GPIO, ADC, and PWM peripherals with time-based input conditioning
+- Built entirely in MicroPython
 
-## 🧩 Hardware Components
+## Hardware Components
 - Raspberry Pi Pico (RP2040)
 - 1 push button
 - 1 red LED
@@ -18,19 +18,19 @@ An advanced embedded systems project built on the RP2040 microcontroller (Raspbe
 - 1 10kΩ potentiometer
 - Breadboard and jumper wires
 
-## 📜 Code
+## Code
 See [`multi_mode_led_controller.py`](multi_mode_led_controller.py)
 
-## 🎥 Demo
+## Demo
 ![Demo](demo.gif)
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 - Embedded system design on Arm Cortex-M0+ SoC
 - PWM and ADC peripheral interfacing
 - Press-duration-based finite state machine logic
 - Real-time signal control with power-efficient, resource-minimal hardware
 
-## 🛠️ Tools
+## Tools
 - MicroPython
 - Thonny IDE
 - Raspberry Pi Pico
